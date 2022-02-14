@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --color-principal: #082835;
+    --color-secundario: #FFFFFF;
+    --color-accion: #00E0C7;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140px;
+    letter-spacing: -1.5%;
+    text-align: left;
+    color: var(--color-secundario);
+    
+
+}
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 73px;
+    letter-spacing: -0.005em;
+    
+    color: var(--color-secundario);
+}
+.tituloForm h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 73px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: var(--color-principal);
+}
+
+h6 {
+font-family: 'Fira Sans', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 1000;
+line-height: 48px;
+letter-spacing: 0.0015em;
+text-align: left;
+color: var(--color-secundario);
+}
+.sub1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color: var(--color-secundario);
+     
+}
+.sub2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.0015em;
+    text-align: justify;
+    color: var(--color-secundario);
+       
+}
+span {
+    color: var(--color-principal);
+}
+a {
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+.subTitulos {
+   
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color: var(--color-secundario);
+}
+.formulario, .formulario1 {
+    font-family: 'Fira Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    padding-left: 15px;
+    color: var();
+}
+.body1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: var(--color-secundario);
+
+} 
+
+.buttom-Presentacion{
+    
+    width: 500px;
+    height: 90px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0.0125em;
+    text-align: center;
+    color: var(--color-secundario);
+    border: none;
+    left: 63px;
+    top: 431px;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: var(--color-accion);
+}
+.buttonContactos {
+    width: 180px;
+    height: 60px;
+    left: 20px;
+    top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.0250em;
+    text-align: center;
+    background-color: var(--color-accion);
+    color: var(--color-secundario);
+
+}
+.buttom-informacion {
+    width: 260px;
+    height: 80px;
+    left: 20px;
+    top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.0250em;
+    text-align: center;
+    background-color: var(--color-accion);
+    color: var(--color-secundario)
+
+}
+
+.botonST {
+
+    width: 250PX;
+    height: 100%;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.0125em;
+    text-align: center;
+    background-color: var(--color-accion);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0PX 4px 4px rgba(0, 0, 0 ,0, 0.25) ;
+    
+}
+footer img {
+     width: 10%;
+    height: 100%;
+}
+header {
+   
+    position: fixed;
+    z-index: 99;
+}
+.d-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ .logo svg {
+     width: 100%;
+ }
+
+ ul li {
+     list-style: none;
+     margin-right: 30px;
+ }
+ li a {
+    text-decoration: none;
+    border: 3px solid var(--color-accion);
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 15px;
+    color: var(--color-secundario);
+ }
+ main {
+     position: relative;
+    height: 100vh;
+    line-height: inherit;
+    overflow: hidden;
+}
+ img {
+     width: 100%;
+     height: 100%;
+ }
+/*  PAGINA 1 INDEX*/
+.container_Descripcion_index {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/fondo-home.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-left: 180px;
+    align-items: center;
+}
+
+
+.container_Descripcion {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tituloServicios {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicioImagenes{
+    width:80%; 
+    height: 75%;
+    display: grid;
+    grid-template-columns : 33.3% 33.3% 33.3%;
+    gap: 40px;
+    margin: 60px auto;
+}
+.servicioTecnico, .desarrolloWeb, .desarrolloApp{
+    text-align: center;
+    box-shadow: 0px 4px 4px (rgba(0, 0, 0, 0, 25));
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px #00000040;
+}
+.imgServicios {
+    width:90%;
+    height: 70%;
+
+}
+
+
+/* SECCION 2 / PAGINA CONTACTO*/
+
+
+.containerContacto{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.contactoImagen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.imagenContacto {
+    width: 70%;
+    height: 80%;
+    background-image: url("/img/body/image-form1.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 100px 100px 100px ;
+
+}
+
+.containerForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+ 
+}
+.contenedorFormulario {
+    width: 80%;
+    height: 80%;
+    display: block;
+    align-items: center;
+    
+}
+
+.tituloForm {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formularioContendor {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+   
+   
+} 
+ .formularioPrueba {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secundario);
+    flex-direction: column;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 0px 0px 20px 20px;
+    
+}   
+.formulario  {
+
+    width: 90%;
+    height: 10%;
+    border: 1px solid var(--color-accion);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    
+    
+}
+textarea {
+    width: 88%; 
+    height: 280px;
+    border: 1px solid var(--color-accion);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:  30px;
+    border-radius: 20px;
+}
+
+ /* SECCION 2  SOBRE RP*/
+.contedor_Presentacion_SobreRp {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/fondo-sobrerp1.jpg");
+    background-position: bottom left;
+    background-size: 50% 80%;
+    background-repeat: no-repeat;
+    display: flex;
+   background-color: #082835;
+}
+.titulo_presentacion_sobreRp  {
+    width: 40%;
+    height: 18%;
+    display: block;
+    margin-top: 350px;
+    margin-left: 850px;
+    text-align: right;
+    padding: 50px;
+    border-radius: 15px;
+   
+}
+
+.titulo_presentacion_sobreRp h6 {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-left: 240px;
+    background-color: var(--color-principal);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 0px #00000040;
+}
+.titulo_presentacion_sobreRp span {
+    color: var(--color-accion);
+}
+
+/* PAGINA SERVICIO TECNICO */
+/* SECCION 1 */
+.contedor_Presentacion_ServicioTecnico {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/image-home-servicio-tecnico1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+
+}
+
+/* SECCION 2 */
+.container_Descripcion_servicioTecnico {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_flexSrevicioTecnico{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 40%;
+    gap: 2em;
+}
+.contenedor_armado {
+    width: 100%;
+    height: 100%;
+    display: block;
+    grid-column: 1/1;
+    border-radius: 20px;
+    background-color: #00E0C7;
+}
+.imagen_armado {
+    width: 100%;
+    height: 50%;
+    background-image: url("/img/body/reparaciones/armado.jpg"); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 00px 00px;
+}
+.infomracion_armado {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to bottom, var(--color-principal), var(--color-accion));
+    border-radius: 0px 0px 20px 20px;
+}
+
+.titulo_armado {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion_armado {
+    width: 100%;
+    height: 45%;
+}
+
+.contenedor_sistema {
+    width: 100%;
+    height: 100%;
+    display: block;
+    grid-column: 2/4;
+    border-radius: 20px;
+    background-color: #00E0C7;
+}   
+.imagen_sistema {
+    width: 100%;
+    height: 50%;
+    background-image: url("/img/body/reparaciones/sistema.jpg"); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 00px 00px;
+} 
+.infomracion_sistema {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to bottom, var(--color-principal), var(--color-accion));
+    border-radius: 0px 0px 20px 20px;
+}
+.titulo_sistema {
+    width: 100%;
+    height: 30%;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion_sistema {
+    width: 100%;
+    height: 45%;
+}
+.botonServicioTecnico2 {
+    width: 100%;
+    height: 25%;
+    border-radius: 00px 00px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.contenedor_mantenimientoPc {
+    width: 100%;
+    height: 100%;
+    display: block;
+    grid-column: 1/3;
+    border-radius: 20px;
+
+}
+.imagen_mantenimientoPc{
+    width: 100%;
+    height: 50%;
+    background-image: url("/img/body/reparaciones/mantenimiento.jpg"); 
+    background-position: center;  
+    background-size:  100% 300%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 00px 00px;
+}  
+.infomacion_mantenimientoPc {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to bottom, var(--color-principal), var(--color-accion));
+    border-radius: 0px 0px 20px 20px;
+}
+.titulo_mantenimientoPc {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.descripcion_mantenimientoPc {
+    width: 100%;
+    height: 45%;
+}
+.botonServicioTecnico2 {
+    width: 100%;
+    height: 25%;
+   
+    border-radius: 00px 00px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_atencionDomicilio {
+    width: 100%;
+    height: 100%;
+    grid-column: 3/4;
+}
+.imagen_atencionDomicilio {
+    width: 100%;
+    height: 50%;
+    background-image: url("/img/body/reparaciones/image-servicio-tecnico-atencion-en-domicilio1.jpg"); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 00px 00px;
+} 
+.infomacion_atencionDomicilio{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to bottom, var(--color-principal), var(--color-accion));
+    border-radius: 0px 0px 20px 20px;
+}
+.titulo_atencionDomicilio {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion_atencionDomicilio {
+    width: 100%;
+    height: 45%;
+}
+.botonServicioTecnico2 {
+    width: 100%;
+    height: 25%;
+    border-radius: 00px 00px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PAGINA DESARROLLO WEB */
+.contedor_Presentacion_DesarrolloWeb {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/fondo-desarrollo-web2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+ }
+/* PAGINANA DESARROLLO APLICACIONES */
+.contedor_Presentacion_DesarrolloApp {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/image-home-desarrollo-app2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+/* PAGINA CONTACTO */
+.contedor_Presentacion_Contacto {
+    width:  100%;
+    height: 100%;
+    background-image: url("/img/body/fondo-contacto1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-left: 180px;
+    align-items: center;
+}
+
+/* FOOTEr */
+.containerFooter{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    margin-right: 10px;
+    background-color: var(--color-principal);
+  
+}.footerContacto {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}   
+.footerDvisiones {
+    width: 50%;
+    height: 80%;
+    border: 1px solid var(--color-accion);
+    text-align: center;
+    margin:20px 20px 20px;
+    color: var(--color-secundario);
+    padding-top: 20px;
+    border-radius: 5px;
+
+    
+} 
+
