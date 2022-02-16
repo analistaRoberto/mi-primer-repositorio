@@ -105,10 +105,10 @@ a {
 }
 .body1 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 25px;
+    font-weight: 100;
+    line-height: 18px;
     letter-spacing: 0.005em;
     text-align: center;
     color: var(--color-secundario);
@@ -137,8 +137,6 @@ a {
 .buttonContactos {
     width: 180px;
     height: 60px;
-    left: 20px;
-    top: 20px;
     border: none;
     border-radius: 5px;
     font-family: 'Fira Sans', sans-serif;
@@ -375,11 +373,11 @@ header {
 }
 textarea {
     width: 88%; 
-    height: 280px;
+    height: 180px;
     border: 1px solid var(--color-accion);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px;
-    margin-bottom:  30px;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
@@ -387,33 +385,36 @@ textarea {
 .contedor_Presentacion_SobreRp {
     width:  100%;
     height: 100%;
-    background-image: url("/img/body/fondo-sobrerp1.jpg");
-    background-position: bottom left;
-    background-size: 50% 80%;
-    background-repeat: no-repeat;
     display: flex;
-   background-color: #082835;
+    background-image: linear-gradient(to bottom, var(--color-principal), var(--color-accion));
+    align-items: flex-end;
+}
+.imagenSobreRp {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    
+
 }
 .titulo_presentacion_sobreRp  {
-    width: 40%;
-    height: 18%;
+    width: 60%;
+    height: 30%;
     display: block;
-    margin-top: 350px;
-    margin-left: 850px;
+    margin-bottom: 20%;
+    margin-left: -16%;
     text-align: right;
-    padding: 50px;
-    border-radius: 15px;
+    
+    
    
-}
+   }
 
 .titulo_presentacion_sobreRp h6 {
     width: 80%;
-    height: 100%;
-    display: block;
-    margin-top: 0px;
-    margin-left: 240px;
+    height: 70%;
+    padding: 40px;
+     
     background-color: var(--color-principal);
-    padding: 50px;
+   
     border-radius: 15px;
     box-shadow: 15px 15px 15px 0px #00000040;
 }
