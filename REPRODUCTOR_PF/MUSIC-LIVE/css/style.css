@@ -1,0 +1,141 @@
+* { box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    background-color: lighgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/8.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    margin-left: 300px;
+}
+
+/* Player */
+.player {
+    min-width: 480px;
+    max-height: 100%;
+    background-image: linear-gradient(black, rgb(82, 41, 41));
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 2px 2px 3px rgb(36, 34, 34);
+}
+
+/* Title */
+.title {
+    width: 100%;
+    height: 20%;
+    margin-top: 6px;
+    text-align: center;
+}
+
+/* Cover */
+.cover {
+    width: 128px;
+    height: 80px;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/* Progress */
+.progress-container {
+    height: .6rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    background-color: #FF4901;
+    width: 0;
+    height: 100%;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.controls:hover {
+    cursor: pointer;
+}
+.controls button {
+    width: 100px;
+    background-color: transparent;
+    border-radius: 1rem ;
+    background-color: #FF4901;
+    
+}
+
+.controls i {
+    font-size: 1.7rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* Songs */
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    margin-bottom: 1rem;
+}
+
+.songs a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.songs a.active {
+    color: white;
+    font-weight: bold;
+}
+.volumens {
+    
+    width: 0;
+    height: 100%;
+}
+
+
+/* prueba */
+div#mp3_player{
+    margin-top: 1.5rem;
+    width: 500px;
+    height: 120px;
+    background: #000;
+    padding: 5px;
+    border-radius: 10px;
+   
+  }
+
+  div#mp3_player > div > audio{
+    width: 500px;
+    background: #000;
+    
+  }
+
+  div#mp3_player > canvas {
+    width: 490px;
+    height: 110px;
+    background: #FF4901;
+    
+  }
+

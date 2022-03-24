@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MUSIC-LIVE/font/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="stylesheet" href="MUSIC-LIVE/css/style.css">
+</head>
+
+<body>
+
+    <!-- player  -->
+
+    <main class="player"> NEO REPRODUCTION 2.0
+        <!-- titulo -->
+        <h1 class="title" id="title">
+            <!-- Nueva canción -->
+        </h1>
+        <!-- COVER/IMAGEN -->
+        <img src="MUSIC-LIVE/img/4.jpg" alt="" class="cover" id="cover">
+
+        <!-- Audio -->
+        <audio src="" id="audio"></audio>
+
+        <!-- Barra de Progreso -->
+        <div class="progress-container" id="progress-container">
+            <section class="progress" id="progress">
+
+            </section>
+
+
+        </div>
+        <!-- Controles -->
+
+        <section class="controls">
+            <button class="prev">
+                <i class="fas fa-backward" id="prev"></i>
+            </button>
+            <button class="play">
+                <i class="fas fa-play" id="play"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-forward" id="next"></i>
+            </button>
+
+        </section>
+        <!-- listas de canciones -->
+        <ul class="songs" id="songs">
+
+        </ul>
+        <section class="volumen">
+            <div>
+                volumen
+            </div>
+
+            <input type="range" min="0" max="1" step="0.1" value="0" id="volumen" class="volumenn"> 
+            <!-- equalizador -->
+            <div id="mp3_player">
+                <canvas id="analyzer_render"></canvas>
+                <div id="audio_box"></div>
+            </div>
+        </section>
+
+    </main>
+    <script src="MUSIC-LIVE/js/main.js"></script>
+</body>
+
+</html>
